@@ -1,0 +1,596 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Ahmedov Bakir" />
+    <title>Healthiy Food</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <!-- Main section -->
+    <section class="main__section" id="main">
+      <header class="header">
+        <div class="container">
+          <div class="logo">
+            <a href="./index.html">
+              <img src="./img/Logo.png" alt="logo" />
+              <img src="./img/brand.png" alt="brand" />
+            </a>
+          </div>
+          <nav class="navbar">
+            <input type="checkbox" id="mycheck" class="myCheckbox" />
+            <label for="mycheck" class="myCheckbox__btn">
+              <i class="fa-solid fa-bars"></i>
+            </label>
+            <ul class="nav__menu">
+              <li class="nav__menu-item">
+                <a class="active" href="#main">Menu</a>
+              </li>
+              <li class="nav__menu-item">
+                <a href="#recipes">Recipes </a>
+              </li>
+              <li class="nav__menu-item">
+                <a href="#chefs">Chefs</a>
+              </li>
+              <li class="nav__menu-item">
+                <a href="#">Contacts</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </header>
+      <hr />
+      <div class="container">
+        <h1 class="main__section-title">
+          Your favourite food
+          <br />
+          delivered hot & fresh
+        </h1>
+        <p class="main__section-text">
+          HEALTHY SWITCHER chefs do all the prep work, like peeling, chopping &
+          <br />
+          marinating, so you can cook a fresh homemade dinner in just 15
+          minutes.
+        </p>
+        <button class="main__btn">Order Now</button>
+        <div class="main__contact-us">
+          <div class="main__card">
+            <i class="fa-regular fa-clock"></i>
+            <p class="contact__us-info">Today 10:00 am - 7:00 pm</p>
+            <p class="text">Working hours</p>
+          </div>
+          <div class="main__card">
+            <i class="fa-brands fa-telegram"></i>
+            <p class="contact__us-info">Velyka Vasylkivska 100</p>
+            <p class="text">Get Directions</p>
+          </div>
+          <div class="main__card">
+            <i class="fa-sharp fa-solid fa-phone"></i>
+            <p class="contact__us-info">+38 (063)833 24 15</p>
+            <p class="text">Call Online</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- //Main section -->
+    <!-- Besics Food -->
+    <section class="about">
+      <div class="container">
+        <div class="about__wrapper">
+          <h2 class="section__title about__title">
+            The Basics Of Healthy Food
+          </h2>
+          <p class="section__title-text">
+            In aliqua ea ullamco ad est ex non deserunt nulla. Consectetur sint
+            ea aliquip aliquip consectetur <br />
+            voluptate est. Eu minim dolore laboris enim mollit voluptate irure
+            esse aliquip.
+          </p>
+          <div class="about__img-card">
+            <img class="img__icon" src="./img/left.png" alt="" />
+            <img class="img" src="./img/basicimg1.png" alt="img" />
+            <img class="img" src="./img/basicimg2.png" alt="img" />
+            <img class="img__icon" src="./img/right.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- //Besics Food -->
+    <!-- Work section -->
+    <div class="work__section" id="recipes">
+      <div class="container">
+        <h2 class="section__title work__section-title">how it works</h2>
+        <span class="bilur__line"></span>
+        <div class="work__section-cards">
+          <div class="work__section-card">
+            <h4 class="card__title">Pick meals</h4>
+            <span class="bilur__line"></span>
+            <p class="card__text">
+              Choose your meals from our diverse weekly menu. Find gluten or
+              dairy free, low carb & veggie options.
+            </p>
+          </div>
+          <div class="work__section-card">
+            <h4 class="card__title">Choose how often</h4>
+            <span class="bilur__line"></span>
+            <p class="card__text">
+              Our team of chefs do the prep work - no more chopping, measuring,
+              or sink full of dishes!
+            </p>
+          </div>
+          <div class="work__section-card">
+            <h4 class="card__title">fast deliveries</h4>
+            <span class="bilur__line"></span>
+            <p class="card__text">
+              Your freshly prepped 15-min dinner kits arrive on your doorstep in
+              a refrigerated box.
+            </p>
+          </div>
+          <div class="work__section-card">
+            <h4 class="card__title">tasty meals</h4>
+            <span class="bilur__line"></span>
+            <p class="card__text">
+              Gobble makes cooking fast, so you have more time to unwind and be
+              with family.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- ///Work section -->
+    <!-- Dish Of The Day section -->
+    <section class="day__section">
+      <div class="container">
+        <h2 class="section__title">Dish Of The Day</h2>
+        <span class="bilur__line"></span>
+        <div class="day__section-cards">
+          <div class="day__section-card">
+            <img src="./img/dishes1.png" alt="img" />
+            <div class="card__info-wrapper">
+              <h4 class="day__card-title">Featured Meal</h4>
+              <p class="card__title-subtitle">
+                Served with french fries + drink
+              </p>
+              <p class="card__text">
+                Choice of: Coke, Fanta, Sprite, Upgrade to large fries, Add
+                whopper patty, Add Tender crisp patty and more...
+              </p>
+              <div class="evaluation">
+                <div class="evaluation__icon">
+                  <i
+                    style="color: #f9ad3d"
+                    class="fa-sharp fa-regular fa-star"
+                  ></i>
+                  <i
+                    style="color: #f9ad3d"
+                    class="fa-sharp fa-regular fa-star"
+                  ></i>
+                  <i
+                    style="color: #f9ad3d"
+                    class="fa-sharp fa-regular fa-star"
+                  ></i>
+                  <i
+                    style="color: #f9ad3d"
+                    class="fa-sharp fa-regular fa-star"
+                  ></i>
+                </div>
+                <p class="number">12</p>
+                <button class="card__btn">ORDER</button>
+              </div>
+            </div>
+          </div>
+          <div class="day__section-card">
+            <img src="./img/dishes2.png" alt="img" />
+            <div class="card__info-wrapper">
+              <h4 class="day__card-title">Featured Meal</h4>
+              <p class="card__title-subtitle">
+                Served with french fries + drink
+              </p>
+              <p class="card__text">
+                Choice of: Coke, Fanta, Sprite, Upgrade to large fries, Add
+                whopper patty, Add Tender crisp patty and more...
+              </p>
+              <div class="evaluation">
+                <div class="evaluation__icon">
+                  <i
+                    style="color: #f9ad3d"
+                    class="fa-sharp fa-regular fa-star"
+                  ></i>
+                  <i
+                    style="color: #f9ad3d"
+                    class="fa-sharp fa-regular fa-star"
+                  ></i>
+                  <i
+                    style="color: #f9ad3d"
+                    class="fa-sharp fa-regular fa-star"
+                  ></i>
+                  <i
+                    style="color: #f9ad3d"
+                    class="fa-sharp fa-regular fa-star"
+                  ></i>
+                </div>
+                <p class="number">12</p>
+                <button class="card__btn">ORDER</button>
+              </div>
+            </div>
+          </div>
+          <div class="day__section-card">
+            <img src="./img/dishes3.png" alt="img" />
+            <div class="card__info-wrapper">
+              <h4 class="day__card-title">Featured Meal</h4>
+              <p class="card__title-subtitle">
+                Served with french fries + drink
+              </p>
+              <p class="card__text">
+                Choice of: Coke, Fanta, Sprite, Upgrade to large fries, Add
+                whopper patty, Add Tender crisp patty and more...
+              </p>
+              <div class="evaluation">
+                <div class="evaluation__icon">
+                  <i
+                    style="color: #f9ad3d"
+                    class="fa-sharp fa-regular fa-star"
+                  ></i>
+                  <i
+                    style="color: #f9ad3d"
+                    class="fa-sharp fa-regular fa-star"
+                  ></i>
+                  <i
+                    style="color: #f9ad3d"
+                    class="fa-sharp fa-regular fa-star"
+                  ></i>
+                  <i
+                    style="color: #f9ad3d"
+                    class="fa-sharp fa-regular fa-star"
+                  ></i>
+                </div>
+                <p class="number">12</p>
+                <button class="card__btn">ORDER</button>
+              </div>
+            </div>
+          </div>
+          <div class="day__section-card">
+            <img src="./img/dishes4.png" alt="img" />
+            <div class="card__info-wrapper">
+              <h4 class="day__card-title">Featured Meal</h4>
+              <p class="card__title-subtitle">
+                Served with french fries + drink
+              </p>
+              <p class="card__text">
+                Choice of: Coke, Fanta, Sprite, Upgrade to large fries, Add
+                whopper patty, Add Tender crisp patty and more...
+              </p>
+              <div class="evaluation">
+                <div class="evaluation__icon">
+                  <i
+                    style="color: #f9ad3d"
+                    class="fa-sharp fa-regular fa-star"
+                  ></i>
+                  <i
+                    style="color: #f9ad3d"
+                    class="fa-sharp fa-regular fa-star"
+                  ></i>
+                  <i
+                    style="color: #f9ad3d"
+                    class="fa-sharp fa-regular fa-star"
+                  ></i>
+                  <i
+                    style="color: #f9ad3d"
+                    class="fa-sharp fa-regular fa-star"
+                  ></i>
+                </div>
+                <p class="number">12</p>
+                <button class="card__btn">ORDER</button>
+              </div>
+            </div>
+          </div>
+          <div class="day__section-card">
+            <img src="./img/dishes5.png" alt="img" />
+            <div class="card__info-wrapper">
+              <h4 class="day__card-title">Featured Meal</h4>
+              <p class="card__title-subtitle">
+                Served with french fries + drink
+              </p>
+              <p class="card__text">
+                Choice of: Coke, Fanta, Sprite, Upgrade to large fries, Add
+                whopper patty, Add Tender crisp patty and more...
+              </p>
+              <div class="evaluation">
+                <div class="evaluation__icon">
+                  <i
+                    style="color: #f9ad3d"
+                    class="fa-sharp fa-regular fa-star"
+                  ></i>
+                  <i
+                    style="color: #f9ad3d"
+                    class="fa-sharp fa-regular fa-star"
+                  ></i>
+                  <i
+                    style="color: #f9ad3d"
+                    class="fa-sharp fa-regular fa-star"
+                  ></i>
+                  <i
+                    style="color: #f9ad3d"
+                    class="fa-sharp fa-regular fa-star"
+                  ></i>
+                </div>
+                <p class="number">12</p>
+                <button class="card__btn">ORDER</button>
+              </div>
+            </div>
+          </div>
+          <div class="day__section-card">
+            <img src="./img/dishes6.png" alt="img" />
+            <div class="card__info-wrapper">
+              <h4 class="day__card-title">Featured Meal</h4>
+              <p class="card__title-subtitle">
+                Served with french fries + drink
+              </p>
+              <p class="card__text">
+                Choice of: Coke, Fanta, Sprite, Upgrade to large fries, Add
+                whopper patty, Add Tender crisp patty and more...
+              </p>
+              <div class="evaluation">
+                <div class="evaluation__icon">
+                  <i
+                    style="color: #f9ad3d"
+                    class="fa-sharp fa-regular fa-star"
+                  ></i>
+                  <i
+                    style="color: #f9ad3d"
+                    class="fa-sharp fa-regular fa-star"
+                  ></i>
+                  <i
+                    style="color: #f9ad3d"
+                    class="fa-sharp fa-regular fa-star"
+                  ></i>
+                  <i
+                    style="color: #f9ad3d"
+                    class="fa-sharp fa-regular fa-star"
+                  ></i>
+                </div>
+                <p class="number">12</p>
+                <button class="card__btn">ORDER</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ///Dish Of The Day section -->
+    <!-- This month's chefs -->
+    <section class="chefs__section">
+      <div class="container">
+        <h2 class="section__title">This month's chefs</h2>
+        <span class="bilur__line"></span>
+        <div class="chefs__cards">
+          <div class="chefs__card">
+            <div class="chefs__card-about">
+              <img src="./img/Avatar1.png" alt="" />
+              <div class="card__info">
+                <h4 class="chefs__card-title">Gregory Flores</h4>
+                <p class="chefs__card-text">Chef of the cold</p>
+              </div>
+            </div>
+            <img src="./img/chefs1.png" alt="" />
+            <img src="./img/chefs2.png" alt="" />
+            <img src="./img/chefs3.png" alt="" />
+          </div>
+          <div class="chefs__card">
+            <div class="chefs__card-about">
+              <img src="./img/Avatar2.png" alt="" />
+              <div class="card__info">
+                <h4 class="chefs__card-title">Gregory Flores</h4>
+                <p class="chefs__card-text">Chef of the cold</p>
+              </div>
+            </div>
+            <img src="./img/chefs4.png" alt="" />
+            <img src="./img/chefs5.png" alt="" />
+            <img src="./img/chefs6.png" alt="" />
+          </div>
+          <div class="chefs__card">
+            <div class="chefs__card-about">
+              <img src="./img/Avatar3.png" alt="" />
+              <div class="card__info">
+                <h4 class="chefs__card-title">Gregory Flores</h4>
+                <p class="chefs__card-text">Chef of the cold</p>
+              </div>
+            </div>
+            <img src="./img/chefs7.png" alt="" />
+            <img src="./img/chefs8.png" alt="" />
+            <img src="./img/chefs9.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ///This month's chefs -->
+    <!-- Recipes From Our Chefs -->
+    <section class="recipes__section" id="chefs">
+      <div class="container">
+        <h2 class="section__title">Recipes From Our Chefs</h2>
+        <span class="bilur__line"></span>
+        <div class="recipes__cards">
+          <div class="recipes__card recipes__background">
+            <p class="recipes__back-icon">
+              <i class="fa-solid fa-arrow-left"></i>
+            </p>
+            <button class="recipes__btn">breakfast</button>
+            <p class="recipes__data">05 Jul 2016</p>
+            <p class="recipes__card-info">
+              Lorem ipsum dolor sit amet <br />
+              consectetur adipiscing elit
+            </p>
+            <p class="recipes__name">Jason Keller</p>
+            <span>
+              <i class="fa-sharp fa-regular fa-eye"></i>
+            </span>
+            <span>275</span>
+          </div>
+          <div class="recipes__card">
+            <div class="recipes__card_item">
+              <p class="secipes__item-text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt
+              </p>
+              <div class="card__item-foot">
+                <div class="left">
+                  <button class="left__btn">lunch</button>
+                  <p class="recipes__data">05 Jul 2016</p>
+                </div>
+                <div class="right">
+                  <i class="fa-sharp fa-regular fa-eye"></i>
+                  <span>275</span>
+                </div>
+              </div>
+            </div>
+            <div class="recipes__card_item recipes__card-back">
+              <p class="secipes__item-text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt
+              </p>
+              <div class="card__item-foot">
+                <div class="left">
+                  <button class="left__btn">lunch</button>
+                  <p class="recipes__data">05 Jul 2016</p>
+                </div>
+                <div class="right">
+                  <i class="fa-sharp fa-regular fa-eye"></i>
+                  <span>275</span>
+                </div>
+              </div>
+            </div>
+            <div class="recipes__card_item three__item-card">
+              <p class="secipes__item-text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt
+              </p>
+              <div class="card__item-foot">
+                <div class="left">
+                  <button class="left__btn">lunch</button>
+                  <p class="recipes__data">05 Jul 2016</p>
+                </div>
+                <div class="right">
+                  <i class="fa-sharp fa-regular fa-eye"></i>
+                  <span>275</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ///Recipes From Our Chefs -->
+    <!-- We in Social -->
+    <section class="social__section">
+      <div class="container">
+        <h2 class="section__title">We in Social</h2>
+        <span class="bilur__line"></span>
+        <div class="social__cards">
+          <div class="social__card">
+            <div class="social__item">
+              <div class="social">
+                <i class="fa-brands fa-twitter" style="color: #bac5d9"></i>
+                <a href="#">Twitter</a>
+              </div>
+              <button class="card__btn">follow us</button>
+            </div>
+            <hr />
+            <p class="social__data">24 Jun at 16:20 pm</p>
+            <p class="social__text">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut Lorem ipsum dolor sit amet,
+              consectetur adipiscing
+            </p>
+            <span class="social__link">@DennisFerguson</span>
+          </div>
+
+          <div class="social__card">
+            <div class="social__item">
+              <div class="social">
+                <i class="fa-brands fa-telegram" style="color: #bac5d9"></i>
+                <a href="#">Telegramm</a>
+              </div>
+              <button class="card__btn">follow us</button>
+            </div>
+            <hr />
+            <div class="social__img">
+              <img class="social-img" src="./img/social1.png" alt="img" />
+              <img class="social-img" src="./img/social2.png" alt="img" />
+              <img src="./img/social3.png" alt="img" />
+              <img src="./img/social4.png" alt="img" />
+              <img src="./img/social5.png" alt="img" />
+              <img src="./img/social6.png" alt="img" />
+            </div>
+          </div>
+
+          <div class="social__card">
+            <div class="social__item">
+              <div class="social">
+                <i class="fa-brands fa-facebook" style="color: #bac5d9"></i>
+                <a href="#">Facebook</a>
+              </div>
+              <button class="card__btn">follow us</button>
+            </div>
+            <hr />
+            <p class="social__data">24 Jun at 16:20 pm</p>
+            <p class="social__text">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut Lorem ipsum dolor sit amet,
+              consectetur adipiscing
+            </p>
+            <span class="social__link">@DennisFerguson</span>
+          </div>
+        </div>
+      </div>
+    </section>
+    -->
+    <!-- ///We in Social -->
+    <!-- Footer section -->
+    <footer class="footer">
+      <div class="container">
+        <div class="main__contact-us">
+          <div class="main__card">
+            <i class="fa-regular fa-clock"></i>
+            <p class="contact__us-info">Today 10:00 am - 7:00 pm</p>
+            <p class="text">Working hours</p>
+          </div>
+          <div class="main__card">
+            <i class="fa-brands fa-telegram"></i>
+            <p class="contact__us-info">Velyka Vasylkivska 100</p>
+            <p class="text">Get Directions</p>
+          </div>
+          <div class="main__card">
+            <i class="fa-sharp fa-solid fa-phone"></i>
+            <p class="contact__us-info">+38 (063)833 24 15</p>
+            <p class="text">Call Online</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <hr />
+    <!-- ///Footer section -->
+    <div class="copyright">
+      <div class="container">
+        <div class="logo">
+          <a href="./index.html">
+            <img src="./img/Logo.png" alt="logo" />
+            <img src="./img/brand.png" alt="brand" />
+          </a>
+        </div>
+        <p class="copyright__text">
+          © Designed by Yellow Snow. All Rights Reserved.
+        </p>
+      </div>
+    </div>
+  </body>
+</html>

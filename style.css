@@ -1,0 +1,1031 @@
+/* -----<<<  Basic styles >>>----- */
+html {
+  scroll-behavior: smooth;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #191919;
+}
+hr {
+  height: 2px;
+  background: #303030;
+}
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+.section__title {
+  text-transform: capitalize;
+  font-size: 52px;
+  line-height: 90px;
+  font-weight: 700;
+  color: #d9d9d9;
+  letter-spacing: 36%;
+  text-align: center;
+}
+.section__title-text {
+  font-size: 16px;
+  line-height: 30px;
+  font-weight: 400;
+  color: #a6a6a6;
+}
+.bilur__line {
+  display: block;
+  width: 60px;
+  height: 2px;
+  background-color: #34c759;
+}
+/* ///-----<<<  Basic styles >>>----- */
+
+/* Header section style */
+.header {
+  height: 80px;
+}
+.nav__menu {
+  display: flex;
+}
+.header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo a {
+  font-size: 32px;
+  font-weight: 900;
+  line-height: 80px;
+}
+.nav__menu-item a {
+  line-height: 48px;
+  font-weight: 500;
+  font-size: 20px;
+  margin: 0 18px;
+  color: #fff;
+}
+.myCheckbox__btn {
+  font-size: 32px;
+  line-height: 48px;
+  margin-right: 40px;
+  color: #fff;
+  cursor: pointer;
+  display: none;
+}
+.myCheckbox {
+  display: none;
+}
+.nav__menu-item a:hover,
+a.active {
+  color: #34c759;
+}
+/* ///Header section style */
+/* Main section style */
+.main__section {
+  background-image: url(./img/home.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  text-align: center;
+}
+.main__section-title {
+  text-transform: capitalize;
+  padding-top: 80px;
+  font-size: 72px;
+  line-height: 84px;
+  color: #fff;
+}
+.main__section-text {
+  font-size: 16px;
+  line-height: 26px;
+  color: #fff;
+  padding-top: 16px;
+  opacity: 70%;
+}
+.main__btn {
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 700;
+  color: #1a1a1a;
+  letter-spacing: 20%;
+  background: #34c759;
+  padding: 18px 36px;
+  margin-top: 40px;
+  border-radius: 43px;
+  border: none;
+  cursor: pointer;
+}
+.main__btn:hover {
+  color: #fff;
+}
+.main__contact-us {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 40px;
+}
+.main__card i {
+  color: #fff;
+  opacity: 70%;
+}
+.contact__us-info {
+  font-size: 16px;
+  line-height: 30px;
+  font-weight: 400;
+  color: #fff;
+  padding: 12px 0;
+}
+.text {
+  font-size: 16px;
+  font-weight: 400;
+  color: #fff;
+  opacity: 50%;
+}
+/* ///Main section style */
+/*  */
+/* About section style */
+
+.about__wrapper {
+  width: 1110px;
+  height: 100vh;
+  margin: 0px auto;
+  text-align: center;
+  border-radius: 6px;
+  border: none;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.1);
+  background: #252525;
+}
+
+.about__title {
+  padding-top: 40px;
+}
+.about__img-card {
+  padding: 50px 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.about__img-card img {
+  padding: 0 7px;
+}
+/* ///About section style */
+/* Work section style */
+.work__section {
+  padding-top: 90px;
+}
+.section__title + .bilur__line {
+  margin: 0 auto;
+  margin-top: 20px;
+}
+.work__section-cards {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 60px;
+}
+.work__section-card {
+  width: 255px;
+  height: 206px;
+  margin: 7px;
+  padding: 24px;
+  background: #252525;
+  border-radius: 8px;
+}
+.work__section-card:hover {
+  background: #34c759;
+  transition: 0.5s;
+}
+.card__title {
+  text-transform: capitalize;
+  font-size: 22px;
+  line-height: 28px;
+  font-weight: 400;
+  color: #fff;
+}
+.card__title + .bilur__line {
+  margin: 10px 0;
+}
+
+.card__text {
+  font-size: 13px;
+  line-height: 18px;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.5);
+  padding-top: 14px;
+}
+.card__title,
+.card__text {
+  color: rgba(255, 255, 255, 0.5);
+  transition: 0.5s;
+}
+
+.work__section-card:hover > .card__title,
+.work__section-card:hover > .card__text {
+  color: rgba(22, 21, 21, 0.87);
+  transition: 0.5s;
+}
+/* ///Work section style */
+/* Dish Of The Day */
+.day__section {
+  padding-top: 100px;
+}
+.day__section-cards {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.day__section-card {
+  width: 350px;
+  height: 493px;
+  margin: 15px 0;
+  border-radius: 6px;
+  border: none;
+}
+.card__info-wrapper {
+  margin-top: -5px;
+  padding: 30px;
+  background-color: #252525;
+  border-radius: 6px;
+}
+.day__card-title {
+  font-size: 32px;
+  line-height: 32px;
+  font-weight: 400;
+  color: #d9d9d9;
+}
+.card__title-subtitle {
+  font-size: 12px;
+  line-height: 16px;
+  font-weight: 400;
+  color: #d9d9d9;
+  padding-bottom: 20px;
+}
+.evaluation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 28px;
+  background-color: #252525;
+}
+.number {
+  font-size: 12px;
+  line-height: 30px;
+  font-weight: 900;
+  color: #b3b3b3;
+}
+.card__btn {
+  text-transform: uppercase;
+  padding: 0 32px;
+  background: none;
+  color: #fff;
+  font-size: 12px;
+  font-weight: 900;
+  line-height: 40px;
+  letter-spacing: 20%;
+  border: 1px solid rgba(255, 255, 255, 0.075);
+  border-radius: 24px;
+  cursor: pointer;
+}
+.card__btn:hover {
+  background: #34c759;
+}
+/* ///Dish Of The Day */
+/* This month's chefs */
+.chefs__section {
+  padding-top: 100px;
+}
+.chefs__cards {
+  display: flex;
+  justify-content: space-between;
+  padding: 48px 0;
+}
+.chefs__card-about {
+  display: flex;
+  align-items: center;
+  padding-bottom: 24px;
+}
+
+.card__info {
+  padding-left: 24px;
+}
+.chefs__card-about ~ img {
+  padding-right: 15px;
+}
+.chefs__card-title {
+  font-size: 18px;
+  line-height: 20px;
+  font-weight: 400;
+  color: #fff;
+}
+.chefs__card-text {
+  font-size: 12px;
+  line-height: 16px;
+  font-weight: 400;
+  padding-top: 8px;
+  color: rgba(255, 255, 255, 0.5);
+}
+/* This month's chefs */
+/* Recipes From Our Chefs */
+.recipes__section {
+  padding-top: 100px;
+}
+.recipes__cards {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 50px;
+}
+.recipes__background {
+  width: 540px;
+  height: 510px;
+  background-image: url(./img/fromchefs1.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  text-align: center;
+}
+p > i {
+  padding: 10px 12px;
+  background: #5d6986;
+  border-radius: 48px;
+  margin: 30px 30px 0 480px;
+}
+.recipes__btn,
+.left__btn {
+  font-size: 10px;
+  line-height: 25px;
+  font-weight: 900;
+  letter-spacing: 1.25px;
+  text-transform: uppercase;
+  background: #000;
+  opacity: 70%;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 14px;
+  cursor: pointer;
+}
+
+.recipes__btn:hover,
+.left__btn:hover {
+  color: #000;
+  background: #fff;
+  transition: 0.5s;
+}
+.recipes__data,
+.recipes__name {
+  font-size: 14px;
+  line-height: 30px;
+  font-weight: 400;
+  padding-top: 60px;
+  color: #fff;
+}
+.recipes__card-info {
+  font-size: 28px;
+  line-height: 48px;
+  font-weight: 700;
+  color: #fff;
+  padding-top: 24px;
+}
+.recipes__name i,
+span {
+  color: #fff;
+}
+.recipes__card_item {
+  width: 540px;
+  height: 150px;
+  padding: 30px;
+  border-radius: 7px;
+  margin-bottom: 30px;
+  background: #252525;
+}
+.secipes__item-text {
+  font-size: 16px;
+  line-height: 30px;
+  font-weight: 400;
+  color: #fff;
+}
+.card__item-foot {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 12px;
+}
+.left p {
+  display: inline;
+}
+
+.recipes__data {
+  font-size: 12px;
+  line-height: 25px;
+  font-weight: 400;
+  color: #fff;
+  padding-left: 8px;
+}
+.right i {
+  color: #fff;
+  padding-right: 12px;
+}
+.recipes__card-back {
+  background-image: url(./img/fromchefs2.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.three__item-card {
+  background: #34c759;
+}
+/* ///Recipes From Our Chefs */
+/* We in Social */
+.social__section {
+  padding-top: 80px;
+}
+.social__cards {
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 0;
+}
+.social__card {
+  background: #252525;
+  width: 350px;
+  height: 330px;
+  border-radius: 7px;
+  padding: 30px;
+}
+.social__item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 22px;
+}
+.social__img {
+  padding-top: 5px;
+}
+
+.social__img img {
+  width: 93px;
+  height: 100px;
+}
+.social__data,
+.social__text,
+.social__link {
+  font-size: 14px;
+  line-height: 30px;
+  font-weight: 400;
+  color: #737373;
+  padding: 12px 0;
+}
+.social__text {
+  color: #ffffff;
+  opacity: 70%;
+}
+.social__link {
+  color: #34c759;
+  padding: 10px 0;
+}
+/* ///We in Social */
+/* Footer section style */
+.footer {
+  background: #252525;
+  text-align: center;
+  padding: 40px 0;
+}
+/* ///Footer section style */
+.copyright {
+  text-align: center;
+}
+.copyright__text {
+  font-size: 12px;
+  line-height: 60px;
+  font-weight: 400;
+  color: #737373;
+}
+/*  */
+/*  */
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (max-width: 992px) {
+  /* -----<<<  Basic styles >>>----- */
+  .container {
+    width: 96%;
+    margin: 0 auto;
+  }
+  .section__title {
+    font-size: 40px;
+    line-height: 70px;
+  }
+  .section__title-text {
+    font-size: 16px;
+    line-height: 26px;
+  }
+  /* ///-----<<<  Basic styles >>>----- */
+  /* Main section style */
+  .main__section-title {
+    font-size: 52px;
+    line-height: 72px;
+  }
+  .main__section-text {
+    font-size: 16px;
+    line-height: 22px;
+
+    padding-top: 16px;
+  }
+  .main__btn {
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 700;
+    color: #1a1a1a;
+    letter-spacing: 20%;
+    background: #34c759;
+    padding: 18px 36px;
+    margin-top: 40px;
+    border-radius: 43px;
+    border: none;
+    cursor: pointer;
+  }
+  /* About section style */
+  .about__wrapper {
+    width: 90%;
+    height: 100vh;
+  }
+  .about__img-card img {
+    width: 320px;
+    padding: 0 7px;
+  }
+  .about__img-card .img__icon {
+    width: 40px;
+  }
+  /* Work section  */
+  .work__section-cards .work__section {
+    padding-top: 80px;
+  }
+  .section__title + .bilur__line {
+    margin: 0 auto;
+    margin-top: 20px;
+  }
+  .work__section-cards {
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+  .work__section-card {
+    width: 255px;
+    height: 200px;
+    padding: 20px;
+  }
+  .card__title {
+    font-size: 18px;
+    line-height: 24px;
+  }
+  .card__text {
+    font-size: 12px;
+    line-height: 16px;
+    padding-top: 12px;
+  }
+  .day__section-cards {
+    flex-wrap: wrap;
+  }
+  .day__section-card {
+    width: 350px;
+    height: 450px;
+  }
+  .day__section-card img {
+    margin-top: 10px;
+  }
+  .day__card-title {
+    font-size: 32px;
+    line-height: 32px;
+  }
+  .card__title-subtitle {
+    font-size: 12px;
+    line-height: 16px;
+    padding-bottom: 20px;
+  }
+  .number {
+    font-size: 12px;
+    line-height: 30px;
+  }
+  .card__btn:hover {
+    background: #34c759;
+  }
+  /* Dish Of The Day section */
+  .day__section {
+    padding-top: 90px;
+  }
+  .day__section-card {
+    width: 350px;
+    height: 480px;
+  }
+  .day__card-title {
+    font-size: 28px;
+    line-height: 30px;
+  }
+  .number {
+    font-size: 12px;
+    line-height: 28px;
+  }
+  /* Recipes From Our Chefs */
+  .recipes__section {
+    padding-top: 80px;
+  }
+  .recipes__cards {
+    flex-wrap: wrap;
+  }
+  .recipes__background {
+    width: 540px;
+    height: 510px;
+    margin: 0 auto;
+  }
+  .recipes__card {
+    margin: 10px auto;
+  }
+  /* We in Social */
+  .social__section {
+    padding-top: 60px;
+  }
+  .social__cards {
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 30px 0;
+  }
+  .social__card {
+    width: 350px;
+    height: 330px;
+    padding: 20px;
+    margin: 10px auto;
+  }
+}
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 768px) {
+  .container {
+    width: 96%;
+    margin: 0 auto;
+  }
+  .section__title {
+    font-size: 36px;
+    line-height: 52px;
+  }
+  .section__title-text {
+    font-size: 14px;
+    line-height: 22px;
+  }
+  /* Navbar */
+  .nav__menu-item a {
+    font-weight: 900;
+    font-size: 18px;
+    color: rgba(255, 255, 255, 0.788);
+  }
+  .myCheckbox__btn {
+    display: block;
+  }
+  .nav__menu {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    width: 100%;
+    background-color: rgb(3, 1, 1);
+    top: 80px;
+    left: -100%;
+    text-align: center;
+    transition: all 0.7s;
+  }
+  .nav__menu-item {
+    margin: 12px auto;
+    line-height: 30px;
+  }
+  .myCheckbox:checked ~ .nav__menu {
+    left: 0;
+  }
+  /* Main section style */
+  .main__section-title {
+    font-size: 48px;
+    line-height: 65px;
+  }
+  .main__section-text {
+    font-size: 16px;
+    line-height: 20px;
+  }
+  .main__btn {
+    font-size: 16px;
+    line-height: 18px;
+    padding: 14px 30px;
+    margin-top: 30px;
+  }
+  .main__contact-us {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  /* About section style */
+  .about__wrapper {
+    text-align: center;
+    box-shadow: none;
+    background: none;
+  }
+  .about__img-card {
+    flex-wrap: wrap;
+  }
+  .about__img-card .img {
+    padding-top: 12px;
+  }
+  .about__img-card .img__icon {
+    display: none;
+  }
+  /* Work */
+  .work__section-card {
+    width: 350px;
+    padding: 16px;
+  }
+  .card__title {
+    font-size: 16px;
+    line-height: 20px;
+  }
+  /* This month's chefs */
+  .chefs__section {
+    padding-top: 80px;
+  }
+  .chefs__cards {
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+  }
+  .chefs__card-about {
+    padding-top: 20px;
+  }
+  .card__info {
+    padding-left: 18px;
+  }
+  .chefs__card-about ~ img {
+    padding-right: 12px;
+  }
+  .chefs__card-title {
+    font-size: 16px;
+    line-height: 18px;
+  }
+  .chefs__card-text {
+    font-size: 10px;
+    line-height: 14px;
+    padding-top: 4px;
+  }
+}
+/* Small devices (portrait tablets and large phones, 576px and up) */
+@media only screen and (max-width: 576px) {
+  .container {
+    width: 96%;
+    margin: 0 auto;
+  }
+  .section__title {
+    padding-top: 30px;
+    font-size: 28px;
+  }
+  .section__title-text {
+    font-size: 12px;
+    line-height: 18px;
+  }
+  /* Main */
+  .main__section-title {
+    font-size: 32px;
+    line-height: 48px;
+  }
+  .main__section-text {
+    font-size: 12px;
+    line-height: 18px;
+  }
+  .main__btn {
+    font-size: 14px;
+    line-height: 16px;
+    padding: 12px 26px;
+    margin-top: 20px;
+  }
+  .main__card .text {
+    padding: 0;
+    margin: 0;
+    line-height: 0;
+  }
+
+  /* About  */
+  .about {
+    padding-top: 100px;
+  }
+  .about__title {
+    margin-top: 100px;
+  }
+  .about__img-card img {
+    width: 310px;
+    padding: 0 7px;
+    margin: 0 auto;
+  }
+  /* Work */
+  .work__section {
+    margin-top: 20px;
+  }
+  .work__section-title {
+    margin-top: 70px;
+    line-height: 0;
+  }
+  .work__section-card {
+    width: 320px;
+    height: 150px;
+    padding: 12px;
+    margin: 20px auto;
+  }
+  .card__title {
+    line-height: 18px;
+  }
+  /* Dish Of The Day section */
+  .day__section {
+    padding-top: 80px;
+  }
+  .day__section-card {
+    width: 310px;
+    height: 430px;
+    margin: 40px auto;
+  }
+  .day__section-card img {
+    width: 310px;
+    margin-top: 20px;
+  }
+  .day__card-title {
+    font-size: 18px;
+    line-height: 20px;
+  }
+  .number {
+    font-size: 10px;
+    line-height: 22px;
+  }
+  /* Recipes From Our Chefs */
+  .recipes__section {
+    padding-top: 40px;
+  }
+  .recipes__cards {
+    flex-wrap: wrap;
+  }
+  .recipes__background {
+    width: 300px;
+    height: 500px;
+    margin: 0 auto;
+  }
+  .recipes__back-icon {
+    display: none;
+  }
+  .section__title {
+    font-size: 16px;
+    line-height: 20px;
+  }
+  .recipes__card-info {
+    font-size: 18px;
+    line-height: 28px;
+    padding-top: 12px;
+  }
+  .recipes__data,
+  .recipes__name {
+    font-size: 14px;
+    line-height: 20px;
+    padding-top: 30px;
+  }
+  .recipes__btn {
+    margin: 10px auto;
+  }
+  .recipes__card_item {
+    width: 300px;
+    height: 200px;
+    margin: 25px auto;
+  }
+  /* We in Social */
+  .social__card {
+    width: 320px;
+  }
+  .social__img img {
+    flex-wrap: wrap;
+    width: 88px;
+    height: 100px;
+  }
+  /* Footer */
+  .main__contact-us {
+    flex-wrap: wrap;
+  }
+  .main__contact-us .main__card {
+    padding: 16px;
+  }
+}
+@media only screen and (max-width: 320px) {
+  .container {
+    width: 96%;
+    margin: 0 auto;
+  }
+  .section__title {
+    font-size: 24px;
+    line-height: 28px;
+  }
+  .section__title-text {
+    font-size: 12px;
+    line-height: 16px;
+  }
+  /* Main */
+  .main__section-title {
+    font-size: 28px;
+    line-height: 38px;
+  }
+  .main__section-text {
+    font-size: 12px;
+    line-height: 16px;
+  }
+  .main__contact-us {
+    padding: 20px 0;
+  }
+  .main__contact-us .main__card {
+    padding: 20px;
+  }
+  /* About  */
+  .about {
+    margin: 300px 0;
+  }
+  .about__img-card img {
+    width: 300px;
+  }
+  /* Work */
+  .work__section-title {
+    font-size: 18px;
+  }
+  .work__section-card {
+    width: 300px;
+    height: 120px;
+    padding: 8px;
+    margin: 10px auto;
+  }
+  .card__title {
+    line-height: 18px;
+  }
+  /* Dish Of The Day section */
+  .day__section-card {
+    width: 300px;
+    height: 400px;
+    margin: 40px 0;
+  }
+  .day__section-card img {
+    width: 300px;
+  }
+  .day__card-title {
+    font-size: 16px;
+    line-height: 18px;
+  }
+  .number {
+    font-size: 8px;
+    line-height: 16px;
+  }
+  /* This month's chefs */
+  .chefs__section {
+    padding-top: 50px;
+  }
+  .chefs__cards {
+    text-align: center;
+    margin: 0 auto;
+  }
+  .card__info {
+    padding-left: 14px;
+  }
+  /* Recipes From Our Chefs */
+  .recipes__section {
+    padding-top: 20px;
+  }
+  .recipes__background {
+    width: 300px;
+    height: 500px;
+    margin: 0 auto;
+  }
+  .recipes__data,
+  .recipes__name {
+    font-size: 12px;
+    line-height: 16px;
+    padding-top: 20px;
+  }
+  .recipes__btn {
+    margin: 8px auto;
+  }
+  .recipes__card {
+    margin: 10px auto;
+  }
+  .recipes__card_item {
+    width: 300px;
+    height: 250px;
+    margin: 20px auto;
+  }
+
+  /* We in Social */
+  .social__card {
+    width: 310px;
+    padding: 12px;
+    margin: 10px auto;
+  }
+  .social__img img {
+    flex-wrap: wrap;
+    width: 135px;
+    height: 110px;
+  }
+  .social-img {
+    display: none;
+  }
+  /* Footer */
+  .main__contact-us .main__card {
+    padding: 24px;
+  }
+}
